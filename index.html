@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3715ac4793.js" crossorigin="anonymous"></script>
+</head>    
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/bee2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+               
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Ads specialst/Media Buyer</p>
+            <h1>Hi, I'm <span>Chibu</span><br>Bacani From Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/joker.remini-enhanced.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About My Team</h1>
+                    <p>Helping out Entrepreneurs/Businessmen to gain 
+                        the right consumers of their product. Business people like us understands how difficult to handle a business, particularly if it's not doing well. 
+                        That's why our team is here, not only to assist and supply what they need, but also to provide the care what they deserve. 
+                        In a competitive world like digital marketing, those who can get the right audience with the right offer will get the sale.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Strategy')">Strategy</p>
+                            <p class="tab-links" onclick="opentab('Service')">Service</p>
+                            <p class="tab-links" onclick="opentab('Free Service')">Free Service</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Strategy">
+                            <ul>
+                                <li><span>Marketing strategy</span><br>- Audience Research<br>- Interests Research<br>- Competitor's research</li>
+                                <li><span>Launch Campaign & Optimize</span><br>- Full funnel Campaign Structure<br>- Audience Testing<br>- Offer Testing<br>- Creative Testing<br>- A/B Testing<br>- Retargeting Campaign<br>- Campaign scaling<br>- Create look alike Audience</li>
+                                <li><span>Building Authority & Social proof</span><br>- Social Media Content Creation<br>- Stories & Reels Content Creation<br>- Page Engagement</li>
+                                
+
+                        </div>
+                        <div class="tab-contents" id="Service">
+                            <ul>
+                                <li><Span>Facebook Ads</Span><br>Facebook Ads is the advertising platform of the social network Facebook that aims to promote products and services through publications or ads of text, image or video.</li>
+                                <li><span>Instagram Ads</span><br>Instagram ads are posts that promote a business's products or services. The posts can appear in multiple ways, such as an Instagram feed, stories, or both. They can include images or video along with copy and a link to the web page of the company's choice.</li>
+                                <li><span>Creating Landing Page</span></li>
+                                <li><span>Video Editing</span></li>
+                                <li><span>Video creating</span></li>
+                                <li><span>Facebook coaching</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Free Service">
+                            <ul>
+                                <li><span>Business Consultation</span></li>
+                                <li><span>Chatbot</span></li>
+                                <li><span>Graphics</span></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------Services------------------------ -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title7">Some Project That I manage</h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-bottle-droplet"></i>
+                <h2>SkinCare Product</h2>
+                <p>One of my works with good result.</p>
+                <a href="#porfolio">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shoe-prints"></i>
+                <h2>Shoes Product</h2>
+                <p>One of my works with good result.</p>
+                <a href="#porfolio">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shirt"></i>
+                <h2>T-shirt Product</h2>
+                <p>One of my works with good result.</p>
+                <a href="#porfolio">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------Portfolio------------------ -->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">Ads Manager Screenshot</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>SkinCare</h3>
+                    <p>Targeting the right audience increases the likelihood of converting leads into customers.</p>
+                    <a href="#contact"><i class="fa-solid fa-bottle-droplet"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/7.png">
+                <div class="layer">
+                    <h3>Shoes</h3>
+                    <p>When you target the right audience, you can optimize your marketing budget and resources.</p>
+                    <a href="#contact"><i class="fa-solid fa-shoe-prints"></i></a>
+               </div>
+            </div>
+            <div class="work">
+                <img src="Images/2.png">
+                <div class="layer">
+                    <h3>T-shirt</h3>
+                    <p>Targeting the right audience allows you to personalize your marketing efforts.</p>
+                    <a href="#contact"><i class="fa-solid fa-shirt"></i></a>
+            </div>
+        </div>
+    </div>
+        <a href="#contact" class="btn">See more</a>
+  </div>
+</div>
+<!-- -----------------------Contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bacanichibu@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09776997030 / 09610345800</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008223123273"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/EurusJB"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/eurusjb/"><i class="fa-brands fa-instagram"></i></a>
+            
+                </div>
+                <div class="download">
+                    <h2>Click here <i class="fa-solid fa-hand-point-down"></i> </h2>
+                <a href="Images/Client niche.pptx" download class="btn-btn2">Our Succesful Campaign</a>
+            </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Email/Contact" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   
+    </div>
+</div>
+
+
+    <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            }
+
+    </script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right= "0";       
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }    
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw_eFJcqhJ97mnJmXUGsxYFpbu9NULf9spVg0RSMO8Et97Ulct5Zy8412ihCi02i_lJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
