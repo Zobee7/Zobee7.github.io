@@ -274,6 +274,17 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #CBBF32;
 }
+.btn-btn2{
+       display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #CBBF32;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+}
 /* -------------------------Contact------------------------- */
 .contact-left{
     flex-basis: 35%;
