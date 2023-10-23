@@ -260,7 +260,7 @@ nav ul li a:hover::after{
 .work:hover .layer{
     height: 100%;
 }
-.btn{
+.btn-btn2{
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -271,19 +271,8 @@ nav ul li a:hover::after{
     color: white;
     transition: background 0.5s;
 }
-.btn:hover{
+.btn-btn2:hover{
     background: #CBBF32;
-}
-.btn-btn2{
-       display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #CBBF32;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: white;
-    transition: background 0.5s;
 }
 /* -------------------------Contact------------------------- */
 .contact-left{
